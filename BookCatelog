@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<table>
+  <body>
+  <thead>
+    <h1>Book Catalog</h1>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+  </thead>
+
+    <tbody>
+      <tr>
+        <td>Roasted Chicken</td>
+        <td>Xiaojie Ji</td>
+        <td>Food and Alimentazione</td>
+        <td>2008</td>
+      </tr>
+
+      <tr>
+        <td>Mashed Potatoes</td>
+        <td>Damiano Che Lipari</td>
+        <td>Food and Drinks</td>
+        <td>2018</td>
+      </tr>
+
+      <tr>
+        <td>Baozi</td>
+        <td>Zhang Wenjin</td>
+        <td>Delicious</td>
+        <td>2019</td>
+      </tr>
+
+      <tr>
+        <td>Jiaozi</td>
+        <td>James</td>
+        <td>Books</td>
+        <td>1973</td>
+      </tr>
+
+      <tr>
+        <td>Shengjian</td>
+        <td>Blablabla</td>
+        <td>Blublublu</td>
+        <td>2000</td>
+      </tr>
+
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books: 5</td>
+      </tr>
+    </tfoot>
+
+</table>
+</body>
+
+</html>
