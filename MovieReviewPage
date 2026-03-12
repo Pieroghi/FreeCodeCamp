@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rise Beyond 2 - Movie Review</title>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #f1f5f9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+
+        main {
+            max-width: 600px;
+            background: #1e293b;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            color: #38bdf8;
+            font-size: 2.5rem;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        .movie-cover {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 2px solid #334155;
+            margin: 1rem 0;
+        }
+
+        .description {
+            font-size: 1.1rem;
+            font-style: italic;
+            color: #cbd5e1;
+        }
+
+        .rating-box {
+            background: #334155;
+            padding: 10px 15px;
+            border-radius: 6px;
+            display: inline-block;
+        }
+
+        h2 {
+            border-bottom: 2px solid #38bdf8;
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #334155;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        strong {
+            color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <h1>Rise Beyond 2</h1>
+
+        <img 
+            src="https://cdn.freecodecamp.org/curriculum/labs/rise-beyond-2.png" 
+            alt="A cinematic poster showing a lone explorer overlooking a futuristic neon-lit cityscape" 
+            class="movie-cover"
+        >
+
+        <p class="description">
+            In a world where gravity is a luxury, one explorer must journey to the edge of the atmosphere to save the last remnants of civilization. A breathtaking sequel that defies expectations.
+        </p>
+
+        <p class="rating-box">
+            <strong>Movie Rating:</strong> 
+            <span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆</span> 
+            (9.2/10)
+        </p>
+
+        <h2>Cast Members</h2>
+
+        <ul>
+            <li><strong>James Holloway</strong> as Ethan Carter</li>
+            <li><strong>Sarah Jenkins</strong> as Commander Lyra</li>
+            <li><strong>Marcus Vane</strong> as The Architect</li>
+            <li><strong>Elena Rossi</strong> as Maya</li>
+        </ul>
+    </main>
+
+</body>
+</html>
